@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		857F70AC2605FE1A00414036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F70AB2605FE1A00414036 /* AppDelegate.swift */; };
+		857F70AE2605FE1A00414036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F70AD2605FE1A00414036 /* SceneDelegate.swift */; };
+		857F70B02605FE1A00414036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F70AF2605FE1A00414036 /* ViewController.swift */; };
+		857F70B32605FE1A00414036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857F70B12605FE1A00414036 /* Main.storyboard */; };
+		857F70B52605FE1F00414036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857F70B42605FE1F00414036 /* Assets.xcassets */; };
+		857F70B82605FE1F00414036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857F70B62605FE1F00414036 /* LaunchScreen.storyboard */; };
+		857F70C32605FE1F00414036 /* MypartagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F70C22605FE1F00414036 /* MypartagramTests.swift */; };
+		857F70CE2605FE1F00414036 /* MypartagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F70CD2605FE1F00414036 /* MypartagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		857F70BF2605FE1F00414036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857F70A02605FE1A00414036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857F70A72605FE1A00414036;
+			remoteInfo = Mypartagram;
+		};
+		857F70CA2605FE1F00414036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857F70A02605FE1A00414036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857F70A72605FE1A00414036;
+			remoteInfo = Mypartagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		857F70A82605FE1A00414036 /* Mypartagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mypartagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857F70AB2605FE1A00414036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		857F70AD2605FE1A00414036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		857F70AF2605FE1A00414036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		857F70B22605FE1A00414036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		857F70B42605FE1F00414036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857F70B72605FE1F00414036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857F70B92605FE1F00414036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857F70BE2605FE1F00414036 /* MypartagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MypartagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857F70C22605FE1F00414036 /* MypartagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypartagramTests.swift; sourceTree = "<group>"; };
+		857F70C42605FE1F00414036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857F70C92605FE1F00414036 /* MypartagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MypartagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857F70CD2605FE1F00414036 /* MypartagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypartagramUITests.swift; sourceTree = "<group>"; };
+		857F70CF2605FE1F00414036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857F70A52605FE1A00414036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857F70BB2605FE1F00414036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857F70C62605FE1F00414036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857F709F2605FE1A00414036 = {
+			isa = PBXGroup;
+			children = (
+				857F70AA2605FE1A00414036 /* Mypartagram */,
+				857F70C12605FE1F00414036 /* MypartagramTests */,
+				857F70CC2605FE1F00414036 /* MypartagramUITests */,
+				857F70A92605FE1A00414036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857F70A92605FE1A00414036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857F70A82605FE1A00414036 /* Mypartagram.app */,
+				857F70BE2605FE1F00414036 /* MypartagramTests.xctest */,
+				857F70C92605FE1F00414036 /* MypartagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857F70AA2605FE1A00414036 /* Mypartagram */ = {
+			isa = PBXGroup;
+			children = (
+				857F70AB2605FE1A00414036 /* AppDelegate.swift */,
+				857F70AD2605FE1A00414036 /* SceneDelegate.swift */,
+				857F70AF2605FE1A00414036 /* ViewController.swift */,
+				857F70B12605FE1A00414036 /* Main.storyboard */,
+				857F70B42605FE1F00414036 /* Assets.xcassets */,
+				857F70B62605FE1F00414036 /* LaunchScreen.storyboard */,
+				857F70B92605FE1F00414036 /* Info.plist */,
+			);
+			path = Mypartagram;
+			sourceTree = "<group>";
+		};
+		857F70C12605FE1F00414036 /* MypartagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				857F70C22605FE1F00414036 /* MypartagramTests.swift */,
+				857F70C42605FE1F00414036 /* Info.plist */,
+			);
+			path = MypartagramTests;
+			sourceTree = "<group>";
+		};
+		857F70CC2605FE1F00414036 /* MypartagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				857F70CD2605FE1F00414036 /* MypartagramUITests.swift */,
+				857F70CF2605FE1F00414036 /* Info.plist */,
+			);
+			path = MypartagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857F70A72605FE1A00414036 /* Mypartagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857F70D22605FE1F00414036 /* Build configuration list for PBXNativeTarget "Mypartagram" */;
+			buildPhases = (
+				857F70A42605FE1A00414036 /* Sources */,
+				857F70A52605FE1A00414036 /* Frameworks */,
+				857F70A62605FE1A00414036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mypartagram;
+			productName = Mypartagram;
+			productReference = 857F70A82605FE1A00414036 /* Mypartagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		857F70BD2605FE1F00414036 /* MypartagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857F70D52605FE1F00414036 /* Build configuration list for PBXNativeTarget "MypartagramTests" */;
+			buildPhases = (
+				857F70BA2605FE1F00414036 /* Sources */,
+				857F70BB2605FE1F00414036 /* Frameworks */,
+				857F70BC2605FE1F00414036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857F70C02605FE1F00414036 /* PBXTargetDependency */,
+			);
+			name = MypartagramTests;
+			productName = MypartagramTests;
+			productReference = 857F70BE2605FE1F00414036 /* MypartagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		857F70C82605FE1F00414036 /* MypartagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857F70D82605FE1F00414036 /* Build configuration list for PBXNativeTarget "MypartagramUITests" */;
+			buildPhases = (
+				857F70C52605FE1F00414036 /* Sources */,
+				857F70C62605FE1F00414036 /* Frameworks */,
+				857F70C72605FE1F00414036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857F70CB2605FE1F00414036 /* PBXTargetDependency */,
+			);
+			name = MypartagramUITests;
+			productName = MypartagramUITests;
+			productReference = 857F70C92605FE1F00414036 /* MypartagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857F70A02605FE1A00414036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					857F70A72605FE1A00414036 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					857F70BD2605FE1F00414036 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 857F70A72605FE1A00414036;
+					};
+					857F70C82605FE1F00414036 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 857F70A72605FE1A00414036;
+					};
+				};
+			};
+			buildConfigurationList = 857F70A32605FE1A00414036 /* Build configuration list for PBXProject "Mypartagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857F709F2605FE1A00414036;
+			productRefGroup = 857F70A92605FE1A00414036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857F70A72605FE1A00414036 /* Mypartagram */,
+				857F70BD2605FE1F00414036 /* MypartagramTests */,
+				857F70C82605FE1F00414036 /* MypartagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857F70A62605FE1A00414036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857F70B82605FE1F00414036 /* LaunchScreen.storyboard in Resources */,
+				857F70B52605FE1F00414036 /* Assets.xcassets in Resources */,
+				857F70B32605FE1A00414036 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857F70BC2605FE1F00414036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857F70C72605FE1F00414036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857F70A42605FE1A00414036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857F70B02605FE1A00414036 /* ViewController.swift in Sources */,
+				857F70AC2605FE1A00414036 /* AppDelegate.swift in Sources */,
+				857F70AE2605FE1A00414036 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857F70BA2605FE1F00414036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857F70C32605FE1F00414036 /* MypartagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857F70C52605FE1F00414036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857F70CE2605FE1F00414036 /* MypartagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		857F70C02605FE1F00414036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857F70A72605FE1A00414036 /* Mypartagram */;
+			targetProxy = 857F70BF2605FE1F00414036 /* PBXContainerItemProxy */;
+		};
+		857F70CB2605FE1F00414036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857F70A72605FE1A00414036 /* Mypartagram */;
+			targetProxy = 857F70CA2605FE1F00414036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		857F70B12605FE1A00414036 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857F70B22605FE1A00414036 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		857F70B62605FE1F00414036 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857F70B72605FE1F00414036 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857F70D02605FE1F00414036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		857F70D12605FE1F00414036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857F70D32605FE1F00414036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5ZJCF4V4U;
+				INFOPLIST_FILE = Mypartagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.Mypartagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		857F70D42605FE1F00414036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5ZJCF4V4U;
+				INFOPLIST_FILE = Mypartagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.Mypartagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		857F70D62605FE1F00414036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5ZJCF4V4U;
+				INFOPLIST_FILE = MypartagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MypartagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mypartagram.app/Mypartagram";
+			};
+			name = Debug;
+		};
+		857F70D72605FE1F00414036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5ZJCF4V4U;
+				INFOPLIST_FILE = MypartagramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MypartagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mypartagram.app/Mypartagram";
+			};
+			name = Release;
+		};
+		857F70D92605FE1F00414036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5ZJCF4V4U;
+				INFOPLIST_FILE = MypartagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MypartagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mypartagram;
+			};
+			name = Debug;
+		};
+		857F70DA2605FE1F00414036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5ZJCF4V4U;
+				INFOPLIST_FILE = MypartagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = memo.com.MypartagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mypartagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857F70A32605FE1A00414036 /* Build configuration list for PBXProject "Mypartagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857F70D02605FE1F00414036 /* Debug */,
+				857F70D12605FE1F00414036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857F70D22605FE1F00414036 /* Build configuration list for PBXNativeTarget "Mypartagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857F70D32605FE1F00414036 /* Debug */,
+				857F70D42605FE1F00414036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857F70D52605FE1F00414036 /* Build configuration list for PBXNativeTarget "MypartagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857F70D62605FE1F00414036 /* Debug */,
+				857F70D72605FE1F00414036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857F70D82605FE1F00414036 /* Build configuration list for PBXNativeTarget "MypartagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857F70D92605FE1F00414036 /* Debug */,
+				857F70DA2605FE1F00414036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 857F70A02605FE1A00414036 /* Project object */;
+}
