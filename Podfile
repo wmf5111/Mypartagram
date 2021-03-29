@@ -8,6 +8,7 @@ target 'Mypartagram' do
   # Pods for Mypartagram
     pod 'Parse'
     pod 'AlamofireImage'
+    pod 'MessageInputBar'
 
   target 'MypartagramTests' do
     inherit! :search_paths
